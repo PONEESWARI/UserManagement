@@ -1,0 +1,29 @@
+/* Container to center the card */
+.container {
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto;   /* Center horizontally */
+  padding: 20px;
+}
+
+/* Style the Angular Material card */
+mat-card {
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Ensure full width for form fields */
+mat-form-field {
+  width: 100%;
+}
+
+/* Style the submit button */
+button {
+  margin-top: 20px;
+  width: 100%; /* Full width */
+}
+
+/* Customize Angular Material error messages */
+mat-error {
+  color: #f44336; /* Red color for errors */
+}
